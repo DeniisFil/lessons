@@ -1,0 +1,29 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+.text-blue {
+    color: #0a43be;
+} 
+.paragraph {
+    color: rgb(247, 51, 51);
+}
+header h1 {
+    color: rgb(166, 34, 170);
+}
+header ol * {
+    color: #61630f;
+}
+footer ol * {
+    color: #0b2e79be;
+}
+footer h2 {
+    color: #d83417;
+}
+#contact1 {
+    color: #57ec29;
+}  
+#contact2 {
+    color: #57ec29;
+}
+ 
+
