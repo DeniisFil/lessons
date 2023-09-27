@@ -1,0 +1,66 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+
+}
+.main {
+   margin-top: 37px;
+
+}
+.title {
+    color: #37393F;
+    font-size: 30px;
+    line-height: 38.10px;
+    word-wrap: break-word;
+}
+.text1, .text3 {
+    color: #7D7D7D;
+    font-size: 18px;
+    line-height: 26.31px;
+    word-wrap: break-word
+}
+.text2 {
+    color: #6B77E5;
+    font-size: 20px;
+    line-height: 25.40px;
+    word-wrap: break-word;
+    margin-top: 42px;
+}
+.mt12 {
+    margin-top: 12px;
+}
+
+.title2 {
+    margin-top: 50px;
+    font-size: 40px;
+    line-height: 127%; /* 50.8px */
+    color: #37393F;
+    font-weight: 700;
+}
+.mt13 {
+    margin-top: 13px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.mt35 {
+    margin-top: 35px;
+}
+.text-color-dark-gray {
+    color: #7D7D7D;
+}
+ul, ol {
+padding-left: 16px;
+} 

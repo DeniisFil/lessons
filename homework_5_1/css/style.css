@@ -1,0 +1,205 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;600;800&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+  @font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"); 
+	font-display: swap;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"); 
+	font-display: swap;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-ExtraBold.woff") format("woff"); 
+	font-display: swap;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Regular.woff") format("woff"); 
+	font-display: swap;
+	font-weight: 400;
+}
+
+ body  {
+    font-family: 'Martian Mono', monospace;
+  
+    line-height: 150%;
+}
+
+p, div, span, a {
+    font-size: 16px;
+    font-weight: 400;
+}
+h1 {
+    font-weight: 800;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+h2, h3, h4 {
+    font-weight: 600;
+    font-size: 24px;
+    font-style: italic;
+}
+.title {
+    text-decoration: underline;
+}
+.new-font {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+}
+
+.img {
+  text-align: center;
+  width: 500px;  
+}
+
+.title {
+    text-align: center;
+    color: brown;
+}
+
+.title2 {
+    color: rgb(17, 17, 194);
+    text-align: right;
+    text-decoration:underline ;
+    text-shadow: 2px 2px 2px ;
+
+} 
+
+.vw {
+    text-align: right;
+    text-decoration: line-through;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #000;
+}
+
+.audi {
+    text-decoration: underline;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #cc1313;
+}
+
+.division {
+    text-align: center;
+    text-decoration: line-through;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #31d82b;
+}
+
+
+.seat {
+    text-align: right;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #50be39;
+}
+
+
+.skoda {
+    text-decoration: line-through;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color:  #920606;
+}
+
+.bentley {
+    text-align: center;
+    text-decoration: overline;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #920606;
+}
+
+.bugatti {
+    text-decoration: line-through;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #1b93a8;
+}
+
+.lamborghini {
+    text-align: center;
+    text-decoration: overline;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #1b93a8;
+}
+
+.scania {
+    text-decoration: line-through;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #1b93a8;
+}
+
+.man {
+    text-align: center;
+    text-decoration: overline;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: rgb(187, 0, 0);
+}
+
+.porsche {
+    text-decoration: line-through;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #71df31;
+}
+
+.ducati {
+    text-align: center;
+    text-decoration: overline;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #2237b3;
+}
+
+.group {
+   
+    text-decoration: line-through;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #edf04b;
+}
+
+.moskvich {
+    text-align:center ;
+    text-decoration: overline;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: #009600;
+    font-family: 'Montserrat',sans-serif ;
+}
+
+.title3 {
+    color: #941814;
+    text-align: center;
+    text-decoration:underline ;
+    text-shadow: 2px 2px 2px ; 
+}
+.text {
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    text-decoration: overline;
+    
+}
