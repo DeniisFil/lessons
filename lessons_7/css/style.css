@@ -1,0 +1,284 @@
+/* Скидання стилів */
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@font-face {
+    font-family: "Causten"; 
+    src: url("/fonts/Causten-Bold.woff2") format("woff2"); 
+    font-weight: 700; 
+  } 
+  @font-face {
+    font-family: "Causten"; 
+    src: url("/fonts/Causten-Regular.woff2") format("woff2"); 
+    font-weight: 400; 
+  } 
+
+  @font-face {
+    font-family: "Causten"; 
+    src: url("/fonts/Causten-Bold.woff") format("woff"); 
+    font-weight: 700; 
+  } 
+  @font-face {
+    font-family: "Causten"; 
+    src: url("/fonts/Causten-Regular.woff") format("woff"); 
+    font-weight: 400; 
+  }
+  @font-face {
+    font-family: "Core Sans C"; 
+    src: url("/fonts/CoreSansC-65Bold.woff2") format("woff2"); 
+    font-weight: 600; 
+  } 
+  @font-face {
+    font-family: "Core Sans C"; 
+    src: url("/fonts/CoreSansC-65Bold.woff") format("woff"); 
+    font-weight: 600; 
+  } 
+  @font-face {
+    font-family: "Cormorant Infant"; 
+    src: url("/fonts/CormorantInfant-Bold.woff2") format("woff2"); 
+    font-weight: 700; 
+  } 
+  @font-face {
+    font-family: "Cormorant Infant"; 
+    src: url("/fonts/CormorantInfant-Bold.woff") format("woff"); 
+    font-weight: 700; 
+  } 
+ 
+body {
+    font-family: "inter",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+    line-height: 26.31px;
+
+}
+h1, h2, h3, h4, h5 {
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+} 
+.block-content {
+    padding: 178px 15px ;
+    margin: 0 auto;
+    width: 1248px;
+   
+}
+
+.block-title {
+    width: 100%;
+    margin-bottom: 70px;
+}
+.block-title h2 {
+    margin-bottom: 16px;
+}
+
+
+.block-icons {
+    margin-bottom: 32px;
+} 
+
+.block-icons h3,
+.block-photo h3,
+.block-fons h2 {
+    margin-bottom: 11px;
+}
+
+.title span {
+    width: 12px;
+    height: 12px;
+    background-color: #40DDB6;
+    display: inline-block;
+    margin-right: 6px;
+}
+.title {
+    font-size: 18px;
+    text-align: center;  
+
+}
+.block-pexels h4 , 
+.block-unsplash h4 {
+    margin-bottom: 8px;
+}
+
+.block-photo,
+.block-pexels {
+    margin-bottom: 24px;
+}
+
+
+.block-unsplash,
+.pho {
+   margin-bottom: 100px; 
+}
+.title,
+.title-2,
+.title-3 {
+  color:#37393F;
+}
+ .text-2 {
+    color: #40DDB6;
+ }
+.title-1 {
+    text-align: center;
+    font-size: 60px; 
+    line-height: 72.60px;
+    color: #37393F;
+
+}
+.position {
+    color: #37393F;
+    font-size: 40px;
+    line-height: 48.40px;
+}
+
+.title-3 {
+    color: #37393F;
+    font-size: 30px;
+    line-height: 33px;
+}
+.color-text {
+    color: #40DDB6;
+    font-size: 30px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+}
+.color {
+    color: #40DDB6;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    line-height: 26.31px;
+}
+.block-fons {
+    width: 739px;
+    border: 2px solid red;
+}
+.page-2, 
+.position {
+    margin-bottom: 13px;
+}
+.page-2 {
+   width: 830px; 
+   padding: 50px 15px;
+   margin: auto;
+   
+}
+.block-text, .re  {
+    margin-bottom: 30px;
+}
+.block-text,
+.block-info {
+    margin-bottom: 35px;
+}
+.block-info {
+    margin-left: 33px;
+    border: 5px solid yellow;
+}
+li {
+    margin-bottom: 35px;
+}
+.mb {
+    margin-bottom: 0
+    ;
+}
+.page-3 {
+    color: #807D7E;
+    font-size: 20px;
+    font-family: "Causten",sans-serif ;
+    font-weight: 400;
+    line-height: 33.50px;
+    width: 1240px;
+    padding: 100px 100px ;
+    margin: 0 auto;
+}
+
+.wrap-page-3{
+    margin: 0  0 0 21px ;
+}
+.title-page3 span {
+    width: 6px;
+    height: 28px;
+    background-color: #8a33fd;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.title-page3 {
+    width: 552px;
+    color: #3C4242;
+    font-size: 28px;
+    font-family: "Core Sans C",sans-serif;
+    font-weight: 600;
+    line-height: 33.50px;
+    margin-bottom: 30px;
+}
+.title-page3-1 {
+    color: #807D7E;
+    font-size: 20px;
+    font-family: "Core Sans C",sans-serif;
+    font-weight: 600;
+    line-height: 33.50px;
+    width: 1043px;
+ 
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+.mb25 {
+    margin-bottom: 25px;
+}
+.page-4 {
+    text-align: center;
+}
+.wrap-develop {
+    width: 1103px;
+    display: inline-block;
+}
+.develop {
+    width: 503px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 75px;
+}
+.title-we {
+    color: #D58417;
+    font-size: 20px;
+    font-family: "Cormorant Infant",sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 27px;
+}
+.sub-title {
+    color: black;
+    font-size: 64px;
+    font-family: "Cormorant Infant",sans-serif;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 31px;
+}
+.text-we {
+    color: #606060;
+    font-size: 30px;
+    font-family:"Cormorant Infant",sans-serif;
+    font-weight: 700;
+    line-height: 42px;
+}
+.develop-img {
+    width: 515px;
+    display: inline-block;
+    vertical-align: top;
+}
+.img-develop {
+    width: 177px;
+    height: 336px;
+    padding: 14px 10px 0 0;
+    border: 1px #502203 solid;
+    border-radius: 999px;
+    margin: 80px 20px 0 0;
+}
+.img-develop1 {
+    width: 307px;
+    height: 500px;
+    border: 1px #502203 solid;
+    border-radius: 999px;
+    padding: 19px 11px 0 0;
+}
