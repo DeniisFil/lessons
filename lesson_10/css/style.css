@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Cormorant+Infant:wght@700&display=swap');
+
+
+
+.icon_vector {
+    background-color: rgb(135, 110, 247);
+}
+h1  {
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.icon_vector img {
+margin-right: 10px;
+}
+.content_foto {
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    text-decoration: underline; 
+}
+.imege1 {
+    margin-right: 30px;
+}
+.imege2 {
+    margin-bottom: 30px;
+}
