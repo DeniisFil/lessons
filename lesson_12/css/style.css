@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+
+
+.wrapper {
+    min-height: 100%;
+}
+.title {  
+    color: rgb(236, 26, 26);
+    font-family: 'Inter',sans-serif;
+    text-align:center;
+    font-size: 44PX;
+    font-style: oblique;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-weight: 600;
+ 
+}
+.title:hover {
+    text-decoration:underline;
+    text-shadow: 2px 2px 1px  rgb(236, 26, 26);;
+}
+
+.header {
+    background-color: rgb(247, 244, 244);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-box-shadow: 0px 6px 14px -2px rgba(148,142,148,1);
+    -moz-box-shadow: 0px 6px 14px -2px rgba(148,142,148,1);
+    box-shadow: 0px 6px 14px -2px rgba(148,142,148,1);
+
+}
+
+.menu {
+    text-align: center;
+   
+ 
+    
+}
+.menu__item {
+    display: inline-block;
+    color: #090a09;
+    margin-left: 60px;
+    font-family: 'Inter',sans-serif;
+    font-size: 24px;
+    position: relative;
+   
+}
+.menu__item:hover .menu__link {
+
+    text-decoration:underline ;
+    
+} 
+.menu__link {
+    
+    padding: 15px 15px;
+    display: inline-block;
+}
+.menu__list > a {
+    display: block;
+    text-align: left;
+
+}
+.menu__list > a:hover {
+    text-decoration: underline;
+}
+.menu__item > .menu__list {
+    display: none;
+    position: absolute;
+    width:max-content;
+    background-color: rgb(63, 150, 177);
+    transform: translateY(100%);
+    bottom:0;
+    padding: 10px;
+}
+.menu__list>*:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.menu__item:hover> .menu__list {
+    display: block;
+}
+
+.menu__link_color {
+    display: inline-block;
+}
+
+.main {
+    margin-top: 206px;
+}
+
+.main__content {
+    height: 700px;
+    position: relative;
+}
+
+.main__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main__block {
+    position: absolute;
+    width: 30%;
+    min-width: 500px;
+    background-color: rgb(248, 246, 243);
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    padding: 25px;
+}
+.main__block>*:nth-child(1){
+    font-size: 50px;
+}
+.main__block>*:nth-child(2){
+    font-size: 20px;
+    margin-top: 50px;
+}
+.main__block>*:nth-child(3){
+    display: inline-block;
+    font-size: 23px;
+    margin-top: 50px;
+    padding: 5px 10px;
+    background-color: rgb(231, 228, 37);
+    border-radius: 5px;
+}
+
+.figma__content {
+   text-align: center; 
+   margin-top: 50px;
+}
+
+.figma__card {
+    height:532px;
+    width: 386px;
+    position: relative;
+
+}
+.figma__card>img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;    
+}
+.figma__card-info{
+    height: 114px;
+    width: 340px;
+    position: absolute;
+    bottom: 22px;
+    left: 23px;
+    background: #fff;
+    z-index: 10;
+}
+.figma__card-info p {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.figma__card-info>*:nth-child(1) {
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #37393F;
+}
+.figma__card-info>*:nth-child(2) {
+    margin-top: 2px;
+    color: #7D7D7D;
+    font-size: 18px;
+    line-height: 24.33px;
+}
+.figma__card-hov {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 119, 229, 0.7);
+    transition: .2s linear;
+}
+.figma__card-hov div {
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    left: 50%;
+    transform:translateX(-50%);
+
+}
+.figma__card-hov div>*:nth-child(2) {
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.figma__card:hover .figma__card-hov {
+    opacity: 1;
+}
+
+.figma__card {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    
+}
+.practice{
+    border: 3px solid #090a09;
+    max-width: 800px;
+    margin: 0 auto;
+   
+}
+.block{
+   font-size: 35px;
+   text-align: center;
+   background-color: rgb(255, 179, 0);
+   position: sticky;
+   top: 206px;
+   display: block;
+   
+}
+.block_2{
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(243, 65, 25);
+    position: sticky;
+    top: 206px;
+
+ }
+.block_3{
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(56, 43, 242);
+    position: sticky;
+    top: 206px;
+ }
+
+
